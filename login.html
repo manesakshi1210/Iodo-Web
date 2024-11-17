@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../assets/Uber-favicon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>IDO</title>
+  </head>
+  <body>
+    <div class="topbar"><a href="../home/home.html">IDO</a></div>
+
+    <div class="container-wrapper">
+      <div class="container">
+        <p>What's your phone number or email?</p>
+        <!-- <form action="post"> -->
+          <form>
+          <div class="inp-wrapper">
+            <input
+              type="text"
+              name="user_cred"
+              id="#user-cred"
+              placeholder="Enter phone number or email"
+            />
+          </div>
+          <button class="black-button"> <a href="signup.html"> Continue </a></button>
+        </form>
+        <h4 class="or thick">or</h4>
+        <div class="btn-group">
+          <button onclick="location.href = 'signup.html'">
+            <i class="fa-brands fa-google fa-xl"></i> &nbsp; Continue with
+            Google
+          </button>
+          <button onclick="location.href = 'signup.html'">
+            <i class="fa-brands fa-apple fa-xl"></i> &nbsp; Continue with Apple
+          </button>
+          <button onclick="location.href = 'signup.html'">
+            <i class="fa-brands fa-facebook-f fa-xl"></i> &nbsp; Continue with
+            Facebook
+          </button>
+        </div>
+        <h4 class="or">or</h4>
+        <button class="qr-button"> <i class="fa-solid fa-qrcode"></i> &nbsp; Log in with QR code</button>
+        <p class="bottom">
+          By proceeding, you consent to get calls, WhatsApp or SMS messages,
+          including by automated means, from IDO and its affiliates to the
+          number provided.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
